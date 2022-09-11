@@ -1,0 +1,66 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Book](
+	[bookId] [int] IDENTITY(100,1) NOT NULL,
+	[bookName] [varchar](20) NOT NULL,
+	[bookAuthor] [varchar](20) NOT NULL,
+	[noOfCopies] [int] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[bookId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[BooksAvailable](
+	[bookId] [int] NOT NULL,
+	[copiesAvailable] [int] NOT NULL
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[BooksAvailable]  WITH CHECK ADD FOREIGN KEY([bookId])
+REFERENCES [dbo].[Book] ([bookId])
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[BookTransactions](
+	[userId] [int] NOT NULL,
+	[bookId] [int] NOT NULL,
+	[expiryDate] [date] NOT NULL,
+	[transactionId] [int] IDENTITY(1,1) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[userId] ASC,
+	[bookId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[BookTransactions]  WITH CHECK ADD FOREIGN KEY([bookId])
+REFERENCES [dbo].[Book] ([bookId])
+GO
+ALTER TABLE [dbo].[BookTransactions]  WITH CHECK ADD FOREIGN KEY([userId])
+REFERENCES [dbo].[Users] ([userId])
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Users](
+	[userId] [int] IDENTITY(1001,1) NOT NULL,
+	[userName] [varchar](20) NOT NULL,
+	[password] [varchar](20) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[userId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO

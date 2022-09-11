@@ -1,0 +1,30 @@
+@{
+    Layout = "~/Views/Shared/_AuthLayout.cshtml";
+    ViewData["Title"] = "User Login";
+}
+@model UserModel
+<div class="d-flex flex-column justify-content-center align-items-center bg-white rounded p-5 shadow-lg"
+    style="width:fit-content">
+    <div class="d-flex align-items-center">
+        <a asp-controller="Home" asp-action="Index">
+            <img src="~/images/library.svg" alt="library-icon" style="height: 40px;width:50px" >
+        </a>
+    </div>
+<h3>Login</h3>
+<form class="d-flex flex-column justify-content-center align-items-center"
+    asp-controller = "Auth" asp-action = "UserLogin" method="post"
+>
+    <div  class="mb-2">
+        <label class="form-label">Enter UserName</label>
+        <input type = "text" class="form-control" placeholder="User Name"  asp-for= 'userName'/>
+    </div>
+    <div  class="mb-2">
+        <label  class="form-label">Enter password</label>
+        <input type="password" class="form-control" placeholder= "Password" asp-for = "password">
+
+    </div>
+    <div class="mt-4">
+        <button class="btn btn-primary">Submit</button>
+    </div>
+</form>
+</div>

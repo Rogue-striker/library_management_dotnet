@@ -1,0 +1,66 @@
+D:\dotnet_assignment\obj\Debug\net6.0\dotnet_assignment.csproj.AssemblyReference.cache
+D:\dotnet_assignment\obj\Debug\net6.0\dotnet_assignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet_assignment\obj\Debug\net6.0\dotnet_assignment.AssemblyInfoInputs.cache
+D:\dotnet_assignment\obj\Debug\net6.0\dotnet_assignment.AssemblyInfo.cs
+D:\dotnet_assignment\obj\Debug\net6.0\dotnet_assignment.csproj.CoreCompileInputs.cache
+D:\dotnet_assignment\obj\Debug\net6.0\dotnet_assignment.MvcApplicationPartsAssemblyInfo.cache
+D:\dotnet_assignment\obj\Debug\net6.0\dotnet_assignment.RazorAssemblyInfo.cache
+D:\dotnet_assignment\obj\Debug\net6.0\dotnet_assignment.RazorAssemblyInfo.cs
+D:\dotnet_assignment\bin\Debug\net6.0\appsettings.Development.json
+D:\dotnet_assignment\bin\Debug\net6.0\appsettings.json
+D:\dotnet_assignment\bin\Debug\net6.0\dotnet_assignment.staticwebassets.runtime.json
+D:\dotnet_assignment\bin\Debug\net6.0\dotnet_assignment.exe
+D:\dotnet_assignment\bin\Debug\net6.0\dotnet_assignment.deps.json
+D:\dotnet_assignment\bin\Debug\net6.0\dotnet_assignment.runtimeconfig.json
+D:\dotnet_assignment\bin\Debug\net6.0\dotnet_assignment.dll
+D:\dotnet_assignment\bin\Debug\net6.0\dotnet_assignment.pdb
+D:\dotnet_assignment\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\dotnet_assignment\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\dotnet_assignment\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\dotnet_assignment\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\dotnet_assignment\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\dotnet_assignment\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\dotnet_assignment\obj\Debug\net6.0\staticwebassets.build.json
+D:\dotnet_assignment\obj\Debug\net6.0\staticwebassets.development.json
+D:\dotnet_assignment\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\dotnet_assignment\obj\Debug\net6.0\scopedcss\bundle\dotnet_assignment.styles.css
+D:\dotnet_assignment\obj\Debug\net6.0\scopedcss\projectbundle\dotnet_assignment.bundle.scp.css
+D:\dotnet_assignment\obj\Debug\net6.0\dotnet_assignment.csproj.CopyComplete
+D:\dotnet_assignment\obj\Debug\net6.0\dotnet_assignment.dll
+D:\dotnet_assignment\obj\Debug\net6.0\refint\dotnet_assignment.dll
+D:\dotnet_assignment\obj\Debug\net6.0\dotnet_assignment.pdb
+D:\dotnet_assignment\obj\Debug\net6.0\dotnet_assignment.genruntimeconfig.cache
+D:\dotnet_assignment\obj\Debug\net6.0\ref\dotnet_assignment.dll
+C:\Users\kiran peraka\Desktop\dotnet-library-main\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\kiran peraka\Desktop\dotnet-library-main\bin\Debug\net6.0\appsettings.json
+C:\Users\kiran peraka\Desktop\dotnet-library-main\bin\Debug\net6.0\dotnet_assignment.staticwebassets.runtime.json
+C:\Users\kiran peraka\Desktop\dotnet-library-main\bin\Debug\net6.0\dotnet_assignment.exe
+C:\Users\kiran peraka\Desktop\dotnet-library-main\bin\Debug\net6.0\dotnet_assignment.deps.json
+C:\Users\kiran peraka\Desktop\dotnet-library-main\bin\Debug\net6.0\dotnet_assignment.runtimeconfig.json
+C:\Users\kiran peraka\Desktop\dotnet-library-main\bin\Debug\net6.0\dotnet_assignment.dll
+C:\Users\kiran peraka\Desktop\dotnet-library-main\bin\Debug\net6.0\dotnet_assignment.pdb
+C:\Users\kiran peraka\Desktop\dotnet-library-main\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\kiran peraka\Desktop\dotnet-library-main\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\kiran peraka\Desktop\dotnet-library-main\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\kiran peraka\Desktop\dotnet-library-main\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\kiran peraka\Desktop\dotnet-library-main\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\kiran peraka\Desktop\dotnet-library-main\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\kiran peraka\Desktop\dotnet-library-main\obj\Debug\net6.0\dotnet_assignment.csproj.AssemblyReference.cache
+C:\Users\kiran peraka\Desktop\dotnet-library-main\obj\Debug\net6.0\dotnet_assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kiran peraka\Desktop\dotnet-library-main\obj\Debug\net6.0\dotnet_assignment.AssemblyInfoInputs.cache
+C:\Users\kiran peraka\Desktop\dotnet-library-main\obj\Debug\net6.0\dotnet_assignment.AssemblyInfo.cs
+C:\Users\kiran peraka\Desktop\dotnet-library-main\obj\Debug\net6.0\dotnet_assignment.csproj.CoreCompileInputs.cache
+C:\Users\kiran peraka\Desktop\dotnet-library-main\obj\Debug\net6.0\dotnet_assignment.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kiran peraka\Desktop\dotnet-library-main\obj\Debug\net6.0\dotnet_assignment.RazorAssemblyInfo.cache
+C:\Users\kiran peraka\Desktop\dotnet-library-main\obj\Debug\net6.0\dotnet_assignment.RazorAssemblyInfo.cs
+C:\Users\kiran peraka\Desktop\dotnet-library-main\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\kiran peraka\Desktop\dotnet-library-main\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\kiran peraka\Desktop\dotnet-library-main\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\kiran peraka\Desktop\dotnet-library-main\obj\Debug\net6.0\scopedcss\bundle\dotnet_assignment.styles.css
+C:\Users\kiran peraka\Desktop\dotnet-library-main\obj\Debug\net6.0\scopedcss\projectbundle\dotnet_assignment.bundle.scp.css
+C:\Users\kiran peraka\Desktop\dotnet-library-main\obj\Debug\net6.0\dotnet_assignment.csproj.CopyComplete
+C:\Users\kiran peraka\Desktop\dotnet-library-main\obj\Debug\net6.0\dotnet_assignment.dll
+C:\Users\kiran peraka\Desktop\dotnet-library-main\obj\Debug\net6.0\refint\dotnet_assignment.dll
+C:\Users\kiran peraka\Desktop\dotnet-library-main\obj\Debug\net6.0\dotnet_assignment.pdb
+C:\Users\kiran peraka\Desktop\dotnet-library-main\obj\Debug\net6.0\dotnet_assignment.genruntimeconfig.cache
+C:\Users\kiran peraka\Desktop\dotnet-library-main\obj\Debug\net6.0\ref\dotnet_assignment.dll

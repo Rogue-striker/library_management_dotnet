@@ -1,0 +1,8 @@
+@model int
+<div class="d-flex justify-content-center flex-column align-items-center">
+<lottie-player src="https://assets4.lottiefiles.com/packages/lf20_5gstlg6x.json" background="transparent"  speed="1"  style="width: 300px; height: 300px;" autoplay></lottie-player>
+<p class="text-center">
+    your registration is successfull and your user id is <span style="font-size:18px; font-weight:bold;">@Model</span>
+</p>
+<a asp-controller ="auth" asp-action="userlogin" class="text-muted text-decoration-none">Click to login</a>
+</div>  

@@ -1,0 +1,48 @@
+@{
+    Layout = "~/Views/Shared/_AdminLayout2.cshtml";
+}
+@model List<BookTransactionsModel>
+<div class="text-center">
+    <h3>
+        All Transactions
+    </h3>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <td>
+                    Transaction Id
+                </td>
+                <td>
+                    Book Id
+                </td>
+                <td>
+                    User Id
+                </td>
+                <td>
+                    Expiry Date
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach (var transaction in Model)
+                {
+                    <tr>
+                        <td>
+                           @transaction.transactionId
+                        </td>
+                        <td>
+                            @transaction.bookId
+                        </td>
+                        <td>
+                            @transaction.userId
+                        </td>
+                        <td>
+                            @transaction.expiryDate
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>

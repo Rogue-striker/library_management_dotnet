@@ -1,0 +1,56 @@
+@{
+
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+@{
+
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+@model List<BookModel>
+<h1 class="text-center">All Available Books</h1>
+<div class="wrapper text-center">
+    <table class="table  table-bordered table-striped">
+        <thead>
+            <tr>
+                <td>
+                    Book Id
+                </td>
+                <td>
+                    Book Name
+                </td>
+                <td>
+                    Book Author
+                </td>
+                <td>
+                    Copies Available
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+
+                foreach (var book in Model)
+                {
+                    <tr>
+                        <td>
+                            @book.bookID
+                        </td>
+                        <td>
+                            @book.bookName
+                        </td>
+                        <td>
+                            @book.bookAuthor
+                        </td>
+                        <td>
+                            @book.noOfCopies
+                        </td>
+                        <td>
+                            <a asp-controller="user" asp-action="LendNewBook" class = "btn btn-success" asp-route-bookid=@book.bookID >Lend</a> 
+                        </td>
+                    </tr>
+
+                }
+            }
+        </tbody>
+    </table>
+</div>

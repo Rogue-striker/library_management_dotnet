@@ -1,0 +1,65 @@
+@{
+    Layout = "~/Views/Shared/_AdminLayout2.cshtml";
+}
+@model List<BookModel>
+<div class="text-center">
+    @{
+        if (Model.Count == 0){
+            <h2 class="mb-4 text-center">No books are available.</h2>
+            <div class="d-flex justify-content-center align-items-center my-4">
+                <form asp-controller="admin" asp-action="addNewBook">
+                    <button class="btn btn-primary">Add New Book</button>
+                </form>
+            </div>
+
+        }
+        else{
+            <h2>List of Books</h2>
+            <table class="table  table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <td>
+                            Book Id
+                        </td>
+                        <td>
+                            Book Name
+                        </td>
+                        <td>
+                            Book Author
+                        </td>
+                        <td>
+                            No of Copies
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                @{
+                    foreach (var book in Model){
+                            <tr>
+                                <td>
+                                    @book.bookID
+                                </td>
+                                <td>
+                                    @book.bookName
+                                </td>
+                                <td>
+                                    @book.bookAuthor
+                                </td>
+                                <td>
+                                    @book.noOfCopies
+                                </td>
+                                <td>
+                                    <a asp-controller="admin" asp-action="deletebook" asp-route-id="@book.bookID"
+                        class="btn btn-danger">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        }
+    }
+</div>

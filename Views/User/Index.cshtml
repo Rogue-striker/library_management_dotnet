@@ -1,0 +1,41 @@
+@{
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+@model List<BookTransactionsModel>
+
+<div class="wrapper text-center">
+    @{
+        if (Model.Count == 0){
+            <div class="my-4 d-flex justify-content-center align-items-center flex-column">
+                <h2 class="mb-4 text-center">You Don't Have Any Books</h2>
+                <a type="sumbit" class="btn btn-primary" asp-controller="user" asp-action="LendBook">Lend New Book</a>
+            </div>
+        }
+        else{
+            <h1 class="text-center">Owned Books</h1>
+            <table class="table table-bordered table-striped table-hover">
+                <thead class="table-dark">
+                    <th>Book ID</th>
+                    <th>Book Name</th>
+                    <th>Expiry Date</th>
+                    <th></th>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (var book in Model){
+                            <tr>
+                                <td>@book.bookId</td>
+                                <td>@book.bookName</td>
+                                <td>@book.expiryDate.ToLongDateString()</td>
+                                <td>
+                                    <a asp-controller="user" asp-action="returnBook" class="btn btn-danger"
+                                    asp-route-bookTransactionId='@book.transactionId'>Return</a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        }
+    }
+</div>
