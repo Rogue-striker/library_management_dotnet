@@ -13,7 +13,8 @@ public class AuthDatabaseService : IAuthDatabaseService{
             try{
                 string findUserQuery = "SELECT userId from Users WHERE userName = @userName and password=@password";
                 SqlCommand findUsercmd = new SqlCommand(findUserQuery,con);
-                findUsercmd.Parameters.AddWithValue("@userName",user.userName);
+                String username = user.userName.TrimEnd().ToLower();
+                findUsercmd.Parameters.AddWithValue("@userName",username);
                 findUsercmd.Parameters.AddWithValue("@password",user.password);
                 SqlDataReader userReader = findUsercmd.ExecuteReader();
                 if(userReader.Read()){
@@ -43,7 +44,9 @@ public class AuthDatabaseService : IAuthDatabaseService{
             con.Open();
             int userId = -1;
             SqlCommand registeruser = new SqlCommand("INSERT INTO Users(userName,password) VALUES(@username,@password) SELECT SCOPE_IDENTITY()",con);
-            registeruser.Parameters.AddWithValue("@username",user.userName);
+            String username = user.userName.TrimEnd().ToLower();
+            System.Console.WriteLine(username);
+            registeruser.Parameters.AddWithValue("@username",username);
             registeruser.Parameters.AddWithValue("@password",user.password);
             try{
                 userId =  Convert.ToInt32(registeruser.ExecuteScalar());
