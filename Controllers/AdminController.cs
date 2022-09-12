@@ -28,7 +28,6 @@ public class AdminController : Controller{
             return View("addnewbook");
         }
     }
-    
     public IActionResult DeleteBook(int id){
         System.Console.WriteLine(id);
         if(_adminDbService.DeleteBook(id)){
