@@ -2,12 +2,10 @@ using System.Data.SqlClient;
 public class AdminDataBaseService : IAdminDataBaseServices {
     private SqlConnection con;
     public IDatabaseService dbService;
-
     public AdminDataBaseService(IDatabaseService dbService){
         this.dbService = dbService;
         this.con = dbService.getConnection();
     }
-
     public bool AddBook(BookModel newBook){
 
         try{
@@ -25,7 +23,6 @@ public class AdminDataBaseService : IAdminDataBaseServices {
                 try{
                     addCopies.ExecuteNonQuery();
                     con.Close();    
-                    Console.WriteLine("ADDED INTO BOOKS AVAILABLE");
                     return true;
                 }
                 catch(Exception addCopiesFailed){
@@ -37,13 +34,11 @@ public class AdminDataBaseService : IAdminDataBaseServices {
                 con.Close();
                 Console.WriteLine(insertionFailed.Message);
             }
-            System.Console.WriteLine("Before con in add");
-            
-            System.Console.WriteLine("AFTER CON IN ADD");
         }
         catch(Exception e){
-            Console.WriteLine(e.ToString());
+            Console.WriteLine(e.Message);
         }
+        con.Close();
         return false;
     }
 
@@ -60,7 +55,6 @@ public class AdminDataBaseService : IAdminDataBaseServices {
                     SqlCommand deleteCopies = new SqlCommand("DELETE FROM Book WHERE bookId = @bookId",con);
                     deleteCopies.Parameters.AddWithValue("@bookId",bookId);
                     int confirmation = deleteCopies.ExecuteNonQuery();
-                    //Console.WriteLine(confirmation);
                     con.Close();
                     return true;
                 }
@@ -70,11 +64,13 @@ public class AdminDataBaseService : IAdminDataBaseServices {
                 }
             }
             catch(Exception deleteExecption){
+                con.Close();
                 System.Console.WriteLine(deleteExecption.Message);
             }
          
         }
         catch(Exception connectionFailed){
+            con.Close();
             Console.WriteLine(connectionFailed.Message);
         }
         return false;
@@ -88,7 +84,6 @@ public class AdminDataBaseService : IAdminDataBaseServices {
             SqlCommand getAllBookscmd = new SqlCommand(getAllBooksQuery,con);
             try{
                 SqlDataReader getAllBooksReader = getAllBookscmd.ExecuteReader();
-              
                 while(getAllBooksReader.Read()){
                     BookModel book = new BookModel((int)getAllBooksReader["bookId"],getAllBooksReader["bookName"].ToString(),getAllBooksReader["bookAuthor"].ToString(),(int)getAllBooksReader["noOfCopies"]);
                     allBooks.Add(book);
@@ -97,12 +92,12 @@ public class AdminDataBaseService : IAdminDataBaseServices {
             }
             catch(Exception dataReaderFailed){
                 con.Close();
-                Console.WriteLine(dataReaderFailed.ToString());
+                Console.WriteLine(dataReaderFailed.Message);
             }
         }
         catch(Exception connectionFailed){
             con.Close();
-            Console.WriteLine(connectionFailed.ToString());
+            Console.WriteLine(connectionFailed.Message);
         }
         
         return allBooks;
@@ -134,8 +129,4 @@ public class AdminDataBaseService : IAdminDataBaseServices {
         }
         return allTransactionsList;
     }
-
-
-
 }
-

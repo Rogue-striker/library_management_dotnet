@@ -104,7 +104,7 @@ public class LibraryDataBaseService : ILibraryDataBaseService{
         List<BookModel> books = new List<BookModel>();
         try{
             con.Open();
-            string getAllBooks = "SELECT Book.bookId,Book.bookName,Book.bookAuthor,BooksAvailable.copiesAvailable FROM Book,BooksAvailable WHERE Book.bookId = BooksAvailable.bookId AND BooksAvailable.copiesAvailable >0 ";
+            string getAllBooks = "SELECT Book.bookId,Book.bookName,Book.bookAuthor,BooksAvailable.copiesAvailable FROM Book,BooksAvailable WHERE Book.bookId = BooksAvailable.bookId AND BooksAvailable.copiesAvailable > 0 ";
             SqlCommand fetchBooks = new SqlCommand(getAllBooks,con);
             SqlDataReader booksReader = fetchBooks.ExecuteReader();
             while(booksReader.Read()){

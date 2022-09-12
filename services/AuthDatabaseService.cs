@@ -18,7 +18,6 @@ public class AuthDatabaseService : IAuthDatabaseService{
                 findUsercmd.Parameters.AddWithValue("@password",user.password);
                 SqlDataReader userReader = findUsercmd.ExecuteReader();
                 if(userReader.Read()){
-
                     var userid = Convert.ToInt32(userReader["userId"]);
                     con.Close();
                     return userid;
@@ -30,12 +29,12 @@ public class AuthDatabaseService : IAuthDatabaseService{
             }
             catch(Exception findUserException){
                 con.Close();
-                 System.Console.WriteLine(findUserException.ToString());
+                System.Console.WriteLine(findUserException.Message);
             }
             con.Close();
         }
         catch(Exception connectionFailed){
-            Console.WriteLine(connectionFailed.ToString());
+            Console.WriteLine(connectionFailed.Message);
         }
         return -1;
     }
@@ -54,7 +53,6 @@ public class AuthDatabaseService : IAuthDatabaseService{
             catch(Exception registerError){
                 con.Close();
                 Console.WriteLine(registerError.Message);
-                throw new Exception();
             }
             con.Close();
             return userId;
@@ -63,6 +61,6 @@ public class AuthDatabaseService : IAuthDatabaseService{
              con.Close();
             Console.WriteLine(connectionFailed.Message);
         }
-        return 0;
+        return -1;
     }
 }

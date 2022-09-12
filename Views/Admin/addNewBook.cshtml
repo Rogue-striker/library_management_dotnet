@@ -2,6 +2,14 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 @model BookModel
+<div class="d-flex justify-content-center flex-column">
+@{
+    if(ViewBag.error == "true"){
+        <div class="alert alert-danger  fade show" role="alert">
+                please enter valid details
+        </div>
+    }
+}
 <div class="d-flex justify-content-center align-items-center shadow-lg px-5 py-4 rounded-lg flex-column " style="width: fit-content;">
     <h2 class="my-2">Add New Book</h2>
     <form asp-controller = "Admin" asp-action = "AddNewBook" method="post">
@@ -21,4 +29,5 @@
             <button class="btn btn-primary px-5" type = "submit">Add</button>
         </div>
     </form>
+</div>
 </div>

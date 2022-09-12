@@ -24,16 +24,21 @@ public class AdminController : Controller{
         if(_adminDbService.AddBook(newBook)){
             return RedirectToAction("addnewbook");
         }else{
-            return RedirectToAction("addnewbook");
+            ViewBag.error = "true";
+            return View("addnewbook");
         }
     }
-    
     public IActionResult DeleteBook(int id){
         System.Console.WriteLine(id);
-        if(_adminDbService.DeleteBook(id)){
+        var res = _adminDbService.DeleteBook(id);
+        System.Console.WriteLine(res);
+        if(res){
             return RedirectToAction("Index");
         }
-        return RedirectToAction("Index");
+        else{
+            TempData["deleteError"] = "cannot delete that book";
+            return RedirectToAction("Index");
+        }
     }
     public IActionResult ShowTransactions(){
         _allTransactions  = _adminDbService.getAllTransactions();

@@ -2,6 +2,14 @@
     Layout = "~/Views/Shared/_AdminLayout2.cshtml";
 }
 @model List<BookModel>
+<div class="d-flex flex-column justify-content-center">
+@{
+    if(ViewBag.error == "true"){
+        <div class="alert alert-danger  fade show" role="alert">
+                please try again
+        </div>
+    }
+}
 <div class="text-center">
     @{
         if (Model.Count == 0){
@@ -14,9 +22,12 @@
 
         }
         else{
+            if(!String.IsNullOrEmpty(Convert.ToString(TempData["deleteError"]))){
+                    <div class="alert alert-danger">@TempData["deleteError"]</div>
+            }
             <h2>List of Books</h2>
             <table class="table  table-bordered table-striped">
-                <thead>
+                <thead class="table-dark">
                     <tr>
                         <td>
                             Book Id
@@ -62,4 +73,5 @@
             </table>
         }
     }
+</div>
 </div>

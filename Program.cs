@@ -9,7 +9,6 @@ builder.Services.AddSession(options=>{
 builder.Services.AddSingleton<IDatabaseService,DatabaseService>();
 builder.Services.AddSingleton<IAdminDataBaseServices,AdminDataBaseService>();
 builder.Services.AddSingleton<ILibraryDataBaseService,LibraryDataBaseService>();
-builder.Services.AddSingleton<ITransactionDatabaseService,TransactionDatabaseService>();
 builder.Services.AddSingleton<IAuthDatabaseService,AuthDatabaseService>();
 var app = builder.Build();
 
