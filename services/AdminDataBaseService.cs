@@ -64,11 +64,13 @@ public class AdminDataBaseService : IAdminDataBaseServices {
                 }
             }
             catch(Exception deleteExecption){
+                con.Close();
                 System.Console.WriteLine(deleteExecption.Message);
             }
          
         }
         catch(Exception connectionFailed){
+            con.Close();
             Console.WriteLine(connectionFailed.Message);
         }
         return false;
