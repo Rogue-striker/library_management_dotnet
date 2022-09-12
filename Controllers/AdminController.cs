@@ -33,8 +33,10 @@ public class AdminController : Controller{
         if(_adminDbService.DeleteBook(id)){
             return RedirectToAction("Index");
         }
-        ViewBag.error = "true";
-        return View("Index");
+        else{
+             ViewBag.error = "true";
+            return View("Index");
+        }
     }
     public IActionResult ShowTransactions(){
         _allTransactions  = _adminDbService.getAllTransactions();
