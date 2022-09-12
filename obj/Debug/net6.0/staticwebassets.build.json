@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tsA9uY8GMyw6h8wTMTDv90stt3QSw6adaaWtPsLxWE4=",
+  "Hash": "NtxFWTf5z0p9Q8u0kO3z0yTZapzf67FuqU64DsAskuo=",
   "Source": "dotnet_assignment",
   "BasePath": "_content/dotnet_assignment",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "dotnet_assignment\\wwwroot",
       "Source": "dotnet_assignment",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\obj\\Debug\\net6.0\\scopedcss\\bundle\\dotnet_assignment.styles.css",
+      "Identity": "D:\\library_management_dotnet\\obj\\Debug\\net6.0\\scopedcss\\bundle\\dotnet_assignment.styles.css",
       "SourceId": "dotnet_assignment",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\library_management_dotnet\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "dotnet_assignment.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\obj\\Debug\\net6.0\\scopedcss\\bundle\\dotnet_assignment.styles.css"
+      "OriginalItemSpec": "D:\\library_management_dotnet\\obj\\Debug\\net6.0\\scopedcss\\bundle\\dotnet_assignment.styles.css"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\dotnet_assignment.bundle.scp.css",
+      "Identity": "D:\\library_management_dotnet\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\dotnet_assignment.bundle.scp.css",
       "SourceId": "dotnet_assignment",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\library_management_dotnet\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "dotnet_assignment.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\dotnet_assignment.bundle.scp.css"
+      "OriginalItemSpec": "D:\\library_management_dotnet\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\dotnet_assignment.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\css\\site.css",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\css\\site.css",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\favicon.ico",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\favicon.ico",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\images\\library.png",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\images\\library.png",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "images/library.png",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\images\\library.png"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\images\\library.svg",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\images\\library.svg",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "images/library.svg",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\images\\library.svg"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\js\\site.js",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\js\\site.js",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\library_management_dotnet\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "dotnet_assignment",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\wwwroot\\",
+      "ContentRoot": "D:\\library_management_dotnet\\wwwroot\\",
       "BasePath": "_content/dotnet_assignment",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

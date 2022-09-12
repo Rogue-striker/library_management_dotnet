@@ -63,6 +63,6 @@ public class AuthDatabaseService : IAuthDatabaseService{
              con.Close();
             Console.WriteLine(connectionFailed.Message);
         }
-        return 0;
+        return -1;
     }
 }

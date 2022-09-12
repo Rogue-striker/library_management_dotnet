@@ -2,6 +2,14 @@
     Layout = "~/Views/Shared/_AdminLayout2.cshtml";
 }
 @model List<BookTransactionsModel>
+    <div class="d-flex flex-column justify-content-center">
+@{
+    if(ViewBag.error == "true"){
+        <div class="alert alert-danger  fade show" role="alert">
+                please enter valid details
+        </div>
+    }
+}
 <div class="text-center">
     <h3>
         All Transactions
@@ -45,4 +53,5 @@
             }
         </tbody>
     </table>
+</div>
 </div>

@@ -24,7 +24,8 @@ public class AuthController : Controller{
                 return RedirectToAction("Index", "User");
             }
         }
-       return RedirectToAction("UserLogin");
+        ViewBag.error = "true";
+       return View("UserLogin");
     }
 
     public IActionResult Register(){
@@ -32,11 +33,15 @@ public class AuthController : Controller{
     }
     [HttpPost]
     public IActionResult Register(UserModel userDetails){
-        int userID = _AuthService.Register(userDetails);
-        if (userID != -1)
-            return RedirectToAction("confirmation", new { userID });
-        else
-            return RedirectToAction("Register");
+        if( !String.IsNullOrEmpty(userDetails.userName) && !String.IsNullOrEmpty(userDetails.password) &&  userDetails.userName != "admin" ){
+            int userID = _AuthService.Register(userDetails);
+            if (userID != -1){
+                return RedirectToAction("confirmation", new { userID });
+            }
+        }
+        ViewBag.error = "please enter the valid details";
+        return View("Register");
+      
     }
     public IActionResult Confirmation(int userid){
         return View(userid);

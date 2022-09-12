@@ -24,7 +24,8 @@ public class AdminController : Controller{
         if(_adminDbService.AddBook(newBook)){
             return RedirectToAction("addnewbook");
         }else{
-            return RedirectToAction("addnewbook");
+            ViewBag.error = "true";
+            return View("addnewbook");
         }
     }
     
@@ -33,7 +34,8 @@ public class AdminController : Controller{
         if(_adminDbService.DeleteBook(id)){
             return RedirectToAction("Index");
         }
-        return RedirectToAction("Index");
+        ViewBag.error = "true";
+        return View("Index");
     }
     public IActionResult ShowTransactions(){
         _allTransactions  = _adminDbService.getAllTransactions();

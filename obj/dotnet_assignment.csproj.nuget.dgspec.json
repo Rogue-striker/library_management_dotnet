@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\dotnet_assignment.csproj": {}
+    "D:\\library_management_dotnet\\dotnet_assignment.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\dotnet_assignment.csproj": {
+    "D:\\library_management_dotnet\\dotnet_assignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\dotnet_assignment.csproj",
+        "projectUniqueName": "D:\\library_management_dotnet\\dotnet_assignment.csproj",
         "projectName": "dotnet_assignment",
-        "projectPath": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\dotnet_assignment.csproj",
-        "packagesPath": "C:\\Users\\kiran peraka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kiran peraka\\Desktop\\dotnet-library-main\\obj\\",
+        "projectPath": "D:\\library_management_dotnet\\dotnet_assignment.csproj",
+        "packagesPath": "C:\\Users\\jyothikiranp\\.nuget\\packages\\",
+        "outputPath": "D:\\library_management_dotnet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kiran peraka\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\jyothikiranp\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
